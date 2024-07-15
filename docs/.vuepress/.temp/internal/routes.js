@@ -1,10 +1,11 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/about.html", { loader: () => import(/* webpackChunkName: "about.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/about.html.js"), meta: {"title":"О нашем ресурсе"} }],
+  ["/FAQ.html", { loader: () => import(/* webpackChunkName: "FAQ.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/FAQ.html.js"), meta: {"title":"ЧаВо"} }],
+  ["/about.html", { loader: () => import(/* webpackChunkName: "about.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/about.html.js"), meta: {"title":"О сайте"} }],
   ["/contacts.html", { loader: () => import(/* webpackChunkName: "contacts.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/contacts.html.js"), meta: {"title":"Контакты"} }],
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Быстрый старт"} }],
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Справочник курьера Купера"} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Справочник курьера"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 

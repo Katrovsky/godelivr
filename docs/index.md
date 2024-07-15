@@ -1,6 +1,6 @@
 ---
 home: true
-title: Справочник курьера Купера
+title: Справочник курьера
 #heroImage: /images/courier-hero.png
 actions:
   - text: К началу
