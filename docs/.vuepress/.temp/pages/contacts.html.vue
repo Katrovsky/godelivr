@@ -9,7 +9,7 @@
 <ul>
 <li><a href="https://partner.sbermarket-mobile.ru/" target="_blank" rel="noopener noreferrer">Личный кабинет партнёра</a> &gt; Только для самозанятых, устроившихся напрямую в Сбермаркет, без участия посредников</li>
 <li><a href="contact/Offer.pdf" title="ссылка на pdf-файл">ДОГОВОР ОФЕРТЫ</a></li>
-<li><a href="https://lk.mysbertips.ru/" target="_blank" rel="noopener noreferrer">СберЧаевые</a>{ align=right }</li>
+<li><a href="https://lk.mysbertips.ru/" target="_blank" rel="noopener noreferrer">СберЧаевые</a></li>
 <li><a href="https://partnersbenefits.sbermarket.ru/" target="_blank" rel="noopener noreferrer">Программа привилегий для сборщиков и курьеров СберМаркета</a></li>
 </ul>
 <div class="custom-container warning"><p class="custom-container-title">Обратите внимание</p>

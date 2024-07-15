@@ -14,7 +14,7 @@
 
 - [Личный кабинет партнёра](https://partner.sbermarket-mobile.ru/) > Только для самозанятых, устроившихся напрямую в Сбермаркет, без участия посредников
 - [ДОГОВОР ОФЕРТЫ](contact/Offer.pdf "ссылка на pdf-файл")
-- [СберЧаевые](https://lk.mysbertips.ru/){ align=right }
+- [СберЧаевые](https://lk.mysbertips.ru/)
 - [Программа привилегий для сборщиков и курьеров СберМаркета](https://partnersbenefits.sbermarket.ru/)
 
 ::: warning Обратите внимание
