@@ -1,5 +1,5 @@
 import comp from "/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/get-started.html.vue"
-const data = JSON.parse("{\"path\":\"/get-started.html\",\"title\":\"Быстрый старт\",\"lang\":\"ru-RU\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Перед сменой\",\"slug\":\"перед-сменои\",\"link\":\"#перед-сменои\",\"children\":[]},{\"level\":2,\"title\":\"Начало смены\",\"slug\":\"начало-смены\",\"link\":\"#начало-смены\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"get-started.md\"}")
+const data = JSON.parse("{\"path\":\"/get-started.html\",\"title\":\"Быстрый старт\",\"lang\":\"ru-RU\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Перед сменой\",\"slug\":\"перед-сменои\",\"link\":\"#перед-сменои\",\"children\":[]},{\"level\":2,\"title\":\"Начало смены\",\"slug\":\"начало-смены\",\"link\":\"#начало-смены\",\"children\":[]}],\"git\":{\"updatedTime\":1721063705000,\"contributors\":[{\"name\":\"Katrovsky\",\"email\":\"katrovskykirill@gmail.com\",\"commits\":1}]},\"filePathRelative\":\"get-started.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

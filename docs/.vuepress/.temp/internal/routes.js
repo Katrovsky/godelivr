@@ -1,10 +1,10 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Справочник курьера Купера"} }],
   ["/about.html", { loader: () => import(/* webpackChunkName: "about.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/about.html.js"), meta: {"title":"О нашем ресурсе"} }],
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Быстрый старт"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Справочник курьера Купера"} }],
 ]);
 
 if (import.meta.webpackHot) {
