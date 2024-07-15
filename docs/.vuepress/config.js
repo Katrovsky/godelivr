@@ -9,9 +9,9 @@ export default defineUserConfig({
   description: 'Руководство курьеров (в разработке)',
 
   theme: defaultTheme({
-    logo: '',
+    logo: '/images/logo.svg',
 
-    navbar: ['/', '/contacts', '/FAQ', '/about'],
+    navbar: ['/', '/shopper', '/contacts', '/FAQ', '/about'],
 
     // Настройки для редактирования на GitHub
     repo: 'Katrovsky/katrovsky.github.io', // Ссылка на репозиторий
@@ -35,7 +35,7 @@ export default defineUserConfig({
 
   // Дополнительные метаданные для SEO
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }], // Favicon
+    ['link', { rel: 'icon', href: '/images/icon.svg' }], // Favicon
     ['meta', { name: 'theme-color', content: '#3eaf7c' }], // Цвет темы для мобильных браузеров
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
