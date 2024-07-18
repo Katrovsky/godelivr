@@ -8,7 +8,12 @@
 <h2 id="саиты" tabindex="-1"><a class="header-anchor" href="#саиты"><span>Сайты</span></a></h2>
 <ul>
 <li><a href="https://partner.sbermarket-mobile.ru/" target="_blank" rel="noopener noreferrer">Личный кабинет партнёра</a> &gt; Только для самозанятых, устроившихся напрямую в Сбермаркет, без участия посредников</li>
-<li><a href="contact/Offer.pdf" title="ссылка на pdf-файл">ДОГОВОР ОФЕРТЫ</a></li>
+<li>ДОГОВОР ОФЕРТЫ:
+<ul>
+<li><a href="/docs/Offer.pdf">Ссылка на pdf-файл Сбермаркета (старый договор)</a></li>
+<li><a href="/docs/Offer_actual.pdf">Текущий оффер Купера</a></li>
+</ul>
+</li>
 <li><a href="https://lk.mysbertips.ru/" target="_blank" rel="noopener noreferrer">СберЧаевые</a></li>
 <li><a href="https://partnersbenefits.sbermarket.ru/" target="_blank" rel="noopener noreferrer">Программа привилегий для сборщиков и курьеров СберМаркета</a></li>
 </ul>
