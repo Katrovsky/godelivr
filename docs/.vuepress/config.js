@@ -1,6 +1,7 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
+import path from 'path'
 
 export default defineUserConfig({
   lang: 'ru-RU',
@@ -26,6 +27,9 @@ export default defineUserConfig({
     // Дополнительные настройки темы
     contributors: true, // Показывать список участников
     contributorsText: 'Участники', // Текст для списка участников
+
+    // Плавный скроллинг
+    smoothScroll: true,
   }),
 
   bundler: viteBundler(),
@@ -40,4 +44,9 @@ export default defineUserConfig({
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ],
+
+  // Добавляем использование пользовательских стилей SCSS
+  alias: {
+    '@theme/styles/index.scss': path.resolve(__dirname, './styles/index.scss'),
+  },
 })

@@ -1,0 +1,12 @@
+:root {
+    --logo-filter: invert(0%);
+  }
+  
+  html.dark {
+    --logo-filter: invert(100%);
+  }
+  
+  .navbar .logo {
+    filter: var(--logo-filter);
+    transition: filter 0.3s;
+  }
