@@ -7,6 +7,7 @@ export const routes = Object.fromEntries([
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Быстрый старт"} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Справочник курьера"} }],
   ["/shopper.html", { loader: () => import(/* webpackChunkName: "shopper.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/shopper.html.js"), meta: {"title":"Shopper"} }],
+  ["/index/get_started.html", { loader: () => import(/* webpackChunkName: "index_get_started.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/index/get_started.html.js"), meta: {"title":""} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/home/key/Documents/SITE_BUILDING/katrovsky.github.io/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 

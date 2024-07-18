@@ -1,4 +1,4 @@
-<template><div><p>Ссылки для скачивания</p>
+<template><div><h2 id="ссылки-для-скачивания-android" tabindex="-1"><a class="header-anchor" href="#ссылки-для-скачивания-android"><span>Ссылки для скачивания Android</span></a></h2>
 <table>
 <thead>
 <tr>
@@ -19,8 +19,14 @@
 <td>Huawei AppGallery</td>
 <td><a href="https://appgallery.huawei.com/#/app/C110698749" target="_blank" rel="noopener noreferrer">ссылка</a></td>
 </tr>
+<tr>
+<td>Ручная установка <code v-pre>apk</code></td>
+<td><a href="https://github.com/Katrovsky/ShopperArchive/releases/latest/download/shopper.apk" target="_blank" rel="noopener noreferrer">ссылка</a></td>
+</tr>
 </tbody>
 </table>
+<h2 id="ссылка-для-скачивания-ios" tabindex="-1"><a class="header-anchor" href="#ссылка-для-скачивания-ios"><span>Ссылка для скачивания iOS</span></a></h2>
+<p>AppStore &gt; <a href="https://apps.apple.com/ru/app/shopper-app/id6467191758" target="_blank" rel="noopener noreferrer">ссылка</a></p>
 </div></template>
 
 
