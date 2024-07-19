@@ -21,7 +21,7 @@
 </tr>
 <tr>
 <td>Ручная установка <code v-pre>apk</code></td>
-<td><a href="https://github.com/Katrovsky/ShopperArchive/releases/latest/download/shopper.apk" target="_blank" rel="noopener noreferrer">ссылка</a></td>
+<td><a href="https://github.com/Katrovsky/ShopperPopper/releases/latest/download/shopper.apk" target="_blank" rel="noopener noreferrer">ссылка</a></td>
 </tr>
 </tbody>
 </table>
