@@ -10,12 +10,12 @@ export default defineUserConfig({
   description: 'Руководство курьеров (в разработке)',
 
   theme: defaultTheme({
-    logo: '/images/logo.svg', // Логотип для светлой темы
-    logoDark: '/images/dark-logo.svg', // Логотип для тёмной темы
+    logo: '/images/logo.svg', // Логотип (светлая тема)
+    logoDark: '/images/dark-logo.svg', // Логотип (тёмная тема)
 
     navbar: ['/', '/shopper', '/contacts', '/FAQ', '/about'],
 
-    // Настройки для редактирования на GitHub
+    // GitHub настройки
     repo: 'Katrovsky/katrovsky.github.io',
     repoLabel: 'GitHub',
     docsDir: 'docs',
@@ -25,14 +25,13 @@ export default defineUserConfig({
     lastUpdated: true,
     lastUpdatedText: 'Последнее обновление',
 
-    // Дополнительные настройки темы
+    // Дополнительные настройки
     contributors: true,
     contributorsText: 'Участники',
 
-    // Плавный скроллинг
     smoothScroll: true,
 
-    // Добавляем локализацию
+    // Локализация
     locales: {
       '/': {
         selectLanguageName: 'Русский',
@@ -58,24 +57,24 @@ export default defineUserConfig({
         toggleColorMode: 'Переключить цветовую схему',
         toggleSidebar: 'Переключить боковую панель'
       }
-    },
+    }
   }),
 
   bundler: viteBundler(),
 
-  // Настройки для кастомного домена
+  // Настройка для кастомного домена
   base: '/',
 
-  // Дополнительные метаданные для SEO
+  // SEO метаданные
   head: [
     ['link', { rel: 'icon', href: '/images/icon.svg' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
-  // Добавляем использование пользовательских стилей SCSS
+  // Пользовательские стили
   alias: {
-    '@theme/styles/index.scss': path.resolve(__dirname, './styles/index.scss'),
-  },
+    '@theme/styles/index.scss': path.resolve(__dirname, './styles/index.scss')
+  }
 })
