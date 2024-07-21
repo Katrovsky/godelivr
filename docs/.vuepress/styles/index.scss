@@ -1,6 +1,6 @@
 /* Плавное появление контента при загрузке страницы */
 .theme-container {
-  animation: fadeIn 0.3s ease-out; /* Уменьшено время анимации для более быстрого появления */
+  animation: fadeIn 0.3s ease-out;
 }
 
 @keyframes fadeIn {
@@ -11,7 +11,7 @@
 /* Подсветка активных элементов навигации */
 .navbar .nav-link,
 .sidebar .sidebar-link {
-  transition: transform 0.3s ease; /* Добавлен переход для плавного эффекта при наведении */
+  transition: transform 0.3s ease;
 }
 
 .navbar .nav-link:hover,
@@ -22,22 +22,22 @@
 /* Увеличение межстрочного интервала для заголовков */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
-  margin-top: 1rem; /* Изменено на rem для более предсказуемого масштабирования */
-  margin-bottom: 0.5rem; /* Изменено на rem для более предсказуемого масштабирования */
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Стили для выделения важной информации */
 .important-info {
   background-color: rgba(255, 255, 0, 0.1);
   border-left: 4px solid #ffd700;
-  padding: 1rem; /* Изменено на rem для более предсказуемого масштабирования */
-  margin: 1rem 0; /* Изменено на rem для более предсказуемого масштабирования */
+  padding: 1rem;
+  margin: 1rem 0;
 }
 
 /* Улучшение контраста в тёмном режиме */
 :root {
-  --text-color: #000; /* Определены переменные по умолчанию для светлой темы */
-  --bg-color: #fff;
+  --text-color: #333; /* Темно-серый текст для лучшей читабельности */
+  --bg-color: #f5f5f5; /* Светло-серый фон для уменьшения контраста */
 }
 
 html.dark {
@@ -55,12 +55,12 @@ body {
   .navbar {
     height: auto;
     padding: 0.7rem 1.5rem;
-    transition: padding 0.3s ease; /* Плавный переход для изменения отступов */
+    transition: padding 0.3s ease;
   }
 
   .navbar .site-name {
     font-size: 1.3rem;
-    transition: font-size 0.3s ease; /* Плавный переход для изменения размера шрифта */
+    transition: font-size 0.3s ease;
   }
 
   .navbar .nav-links {
@@ -82,7 +82,7 @@ body {
   }
 
   .sidebar {
-    transition: transform 0.3s ease; /* Переход для плавного открытия/закрытия */
+    transition: transform 0.3s ease;
   }
 
   .sidebar.open {
