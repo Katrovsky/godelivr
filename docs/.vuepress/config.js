@@ -10,7 +10,8 @@ export default defineUserConfig({
   description: 'Руководство курьеров (в разработке)',
 
   theme: defaultTheme({
-    logo: '/images/logo.svg',
+    logo: '/images/logo.svg', // Логотип для светлой темы
+    logoDark: '/images/dark-logo.svg', // Логотип для тёмной темы
 
     navbar: ['/', '/shopper', '/contacts', '/FAQ', '/about'],
 
